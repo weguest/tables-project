@@ -1,0 +1,4 @@
+/Users/josebraz/Documents/Projetos/NetCore/CodeRuntime/RuntimeCode.Core/obj/Debug/netstandard2.0/RuntimeCode.Core.csprojAssemblyReference.cache
+/Users/josebraz/Documents/Projetos/NetCore/CodeRuntime/RuntimeCode.Core/obj/Debug/netstandard2.0/RuntimeCode.Core.csproj.CoreCompileInputs.cache
+/Users/josebraz/Documents/Projetos/NetCore/CodeRuntime/RuntimeCode.Core/obj/Debug/netstandard2.0/RuntimeCode.Core.AssemblyInfoInputs.cache
+/Users/josebraz/Documents/Projetos/NetCore/CodeRuntime/RuntimeCode.Core/obj/Debug/netstandard2.0/RuntimeCode.Core.AssemblyInfo.cs
