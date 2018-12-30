@@ -15,9 +15,33 @@ namespace RuntimeCode.Core.Implementation.Services
              this._repository = repository;
         }
 
+        // public bool Delete(IEntityType entity)
+        // {
+        //     return this._repository.Delete( entity.Id );
+        // }
+
+        // public IEntityType GetById(string Id)
+        // {
+        //     return this._repository.GetById( Id );
+        // }
+
+        // public IEntityType Save(IEntityType entity)
+        // {
+        //     if(entity.Id == null)
+        //         this._repository.Add( entity );
+        //     else
+        //         this._repository.Update(entity);
+
+        //     return entity;
+        // }
+
+        // public IList<IEntityType> SelectAll()
+        // {
+        //     throw new System.NotImplementedException();
+        // }
         public bool Delete(EntityType entity)
         {
-             return this._repository.Delete( entity.Id ).DeletedCount > 0;
+             return this._repository.Delete( entity.Id );
         }
 
         public EntityType GetById(string Id)

@@ -68,7 +68,7 @@ namespace RuntimeCode.Angular.Controllers
             item = (EntityType)_service.Save(item);
 
             return Ok(item);
-        }
+        } 
 
     }
 
