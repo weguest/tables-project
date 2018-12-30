@@ -1,0 +1,9 @@
+/Users/josebraz/Documents/Projetos/NetCore/CodeRuntime/RuntimeCode.Core/obj/Debug/netcoreapp2.1/RuntimeCode.Core.csprojAssemblyReference.cache
+/Users/josebraz/Documents/Projetos/NetCore/CodeRuntime/RuntimeCode.Core/obj/Debug/netcoreapp2.1/RuntimeCode.Core.csproj.CoreCompileInputs.cache
+/Users/josebraz/Documents/Projetos/NetCore/CodeRuntime/RuntimeCode.Core/obj/Debug/netcoreapp2.1/RuntimeCode.Core.AssemblyInfoInputs.cache
+/Users/josebraz/Documents/Projetos/NetCore/CodeRuntime/RuntimeCode.Core/obj/Debug/netcoreapp2.1/RuntimeCode.Core.AssemblyInfo.cs
+/Users/josebraz/Documents/Projetos/NetCore/CodeRuntime/RuntimeCode.Core/bin/Debug/netcoreapp2.1/RuntimeCode.Core.deps.json
+/Users/josebraz/Documents/Projetos/NetCore/CodeRuntime/RuntimeCode.Core/bin/Debug/netcoreapp2.1/RuntimeCode.Core.dll
+/Users/josebraz/Documents/Projetos/NetCore/CodeRuntime/RuntimeCode.Core/bin/Debug/netcoreapp2.1/RuntimeCode.Core.pdb
+/Users/josebraz/Documents/Projetos/NetCore/CodeRuntime/RuntimeCode.Core/obj/Debug/netcoreapp2.1/RuntimeCode.Core.dll
+/Users/josebraz/Documents/Projetos/NetCore/CodeRuntime/RuntimeCode.Core/obj/Debug/netcoreapp2.1/RuntimeCode.Core.pdb
