@@ -17,6 +17,7 @@ namespace RuntimeCode.Core.Initialization
             //todo: Adcionar Injecoes de Dependencia.
             service.AddScoped<IUnitOfWork>( s => new UnitOfWork("mongodb://localhost:27017/dbEnt"));
             service.AddScoped<IEntityTypeRepository<EntityType>, EntityTypeRepository<EntityType>>();
+            service.AddScoped<IModuleRepository<Module>, ModuleRepository<Module>>();
             service.AddScoped<IEntityTypeService<EntityType>, EntityTypeService>();
             return service;
         }

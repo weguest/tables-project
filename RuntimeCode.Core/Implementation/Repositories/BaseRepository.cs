@@ -20,13 +20,24 @@ namespace RuntimeCode.Core.Implementation.Repositories
 
         public BaseRepository(IUnitOfWork unitOfWork)
         {
-            Collection = unitOfWork.Database.GetCollection<T>(GetCollectionName());
+            var collectionName = GetCollectionName();
+
+            var filter = new BsonDocument("name", collectionName);
+            var collectionCursor = unitOfWork.Database.ListCollections(new ListCollectionsOptions {Filter = filter});
+            if(!collectionCursor.Any()){
+                unitOfWork.Database.CreateCollection(collectionName);
+            }
+            Collection = unitOfWork.Database.GetCollection<T>( collectionName );
         }
 
         public IMongoCollection<T> Collection { get; }
         public Type ElementType { get; set; }
         public Expression Expression { get; set; }
         public IQueryProvider Provider { get; set; }
+
+        public IList<T> SelectAll(){
+            return this.Collection.Find(x=>true).ToList();
+        }
 
         public T Add(T entity)
         {

@@ -25,7 +25,7 @@ namespace RuntimeCode.Angular.Controllers
 
         IEntityTypeService<EntityType> _service;
         IUnitOfWork _uow;
-         IServiceProvider _serviceProvider;
+        IServiceProvider _serviceProvider;
 
         public EntityTypeController(IEntityTypeService<EntityType> service, IUnitOfWork uow, IServiceProvider serviceProvider){
             this._service = service;
@@ -44,22 +44,29 @@ namespace RuntimeCode.Angular.Controllers
         {
             var find = _service.GetById(id);
             
-            if(find == null){
+            if(find == null)
                 return NotFound();
-            }
 
            return (EntityType)find;
         }
 
         [HttpPost]
-        public ActionResult<EntityType> Post(EntityType item)
+        [ProducesResponseType(201)]
+        [ProducesResponseType(400)]
+        public ActionResult<EntityType> Post([FromBody] EntityType item)
         {
+            if (!ModelState.IsValid) 
+                return BadRequest(ModelState);
+            
             return (EntityType)_service.Save(item);
         }
 
         [HttpPut("{id}")]
-        public ActionResult<EntityType> Put(EntityType item)
+        public ActionResult<EntityType> Put([FromBody] EntityType item)
         {
+            if (!ModelState.IsValid) 
+                return BadRequest(ModelState);
+
             var find = _service.GetById(item?.Id);
             if(find == null){
                 return NotFound();

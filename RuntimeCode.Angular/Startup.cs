@@ -29,6 +29,7 @@ namespace RuntimeCode.Angular
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Info { Title = "My API", Version = "v1" });
+                c.DescribeAllEnumsAsStrings();
             });
 
             // In production, the Angular files will be served from this directory

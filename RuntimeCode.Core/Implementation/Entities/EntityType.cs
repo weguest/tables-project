@@ -24,5 +24,9 @@ namespace RuntimeCode.Core.Implementation.Entities
         
         [BsonIgnoreIfNull]
         public IList<IEntityField> Fields { get; set; }
+
+        [BsonIgnoreIfNull]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string Module { get; set; }
     }
 }

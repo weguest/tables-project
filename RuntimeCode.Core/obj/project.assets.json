@@ -29,7 +29,6 @@
           "lib/netstandard1.3/DnsClient.dll": {}
         }
       },
-<<<<<<< HEAD
       "Microsoft.AspNetCore.Authentication.Abstractions/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -274,8 +273,6 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {}
         }
       },
-=======
->>>>>>> 8b372353e5412236b8571d5415735e211d418ce1
       "Microsoft.CodeAnalysis/2.10.0": {
         "type": "package",
         "dependencies": {
@@ -651,7 +648,6 @@
           }
         }
       },
-<<<<<<< HEAD
       "Microsoft.DotNet.PlatformAbstractions/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -683,8 +679,6 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-=======
->>>>>>> 8b372353e5412236b8571d5415735e211d418ce1
       "Microsoft.Extensions.DependencyInjection/2.1.0": {
         "type": "package",
         "dependencies": {
@@ -706,7 +700,6 @@
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
-<<<<<<< HEAD
       "Microsoft.Extensions.DependencyModel/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -800,8 +793,6 @@
           "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {}
         }
       },
-=======
->>>>>>> 8b372353e5412236b8571d5415735e211d418ce1
       "Microsoft.NETCore.App/2.1.0": {
         "type": "package",
         "dependencies": {
@@ -993,7 +984,6 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-<<<<<<< HEAD
       "Microsoft.OData.Core/7.5.0": {
         "type": "package",
         "dependencies": {
@@ -1025,8 +1015,6 @@
           "lib/netstandard1.1/Microsoft.Spatial.dll": {}
         }
       },
-=======
->>>>>>> 8b372353e5412236b8571d5415735e211d418ce1
       "Microsoft.Win32.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1349,7 +1337,6 @@
           "lib/netstandard1.6/System.AppContext.dll": {}
         }
       },
-<<<<<<< HEAD
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
@@ -1357,22 +1344,6 @@
         },
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
-=======
-      "System.Buffers/4.3.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Diagnostics.Debug": "4.3.0",
-          "System.Diagnostics.Tracing": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Threading": "4.3.0"
-        },
-        "compile": {
-          "lib/netstandard1.1/System.Buffers.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.1/System.Buffers.dll": {}
->>>>>>> 8b372353e5412236b8571d5415735e211d418ce1
         }
       },
       "System.Collections/4.3.0": {
@@ -1653,7 +1624,6 @@
           "ref/netstandard1.3/System.Diagnostics.Debug.dll": {}
         }
       },
-<<<<<<< HEAD
       "System.Diagnostics.DiagnosticSource/4.4.1": {
         "type": "package",
         "compile": {
@@ -1663,8 +1633,6 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-=======
->>>>>>> 8b372353e5412236b8571d5415735e211d418ce1
       "System.Diagnostics.FileVersionInfo/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1813,11 +1781,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-<<<<<<< HEAD
           "ref/netstandard1.5/_._": {}
-=======
-          "ref/netstandard1.5/System.Diagnostics.Tracing.dll": {}
->>>>>>> 8b372353e5412236b8571d5415735e211d418ce1
         }
       },
       "System.Dynamic.Runtime/4.3.0": {
@@ -2312,11 +2276,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-<<<<<<< HEAD
           "ref/netstandard1.5/System.Reflection.TypeExtensions.dll": {}
-=======
-          "ref/netstandard1.5/_._": {}
->>>>>>> 8b372353e5412236b8571d5415735e211d418ce1
         },
         "runtime": {
           "lib/netstandard1.5/System.Reflection.TypeExtensions.dll": {}
@@ -2345,7 +2305,6 @@
           "ref/netstandard1.5/System.Runtime.dll": {}
         }
       },
-<<<<<<< HEAD
       "System.Runtime.CompilerServices.Unsafe/4.4.0": {
         "type": "package",
         "compile": {
@@ -2355,8 +2314,6 @@
           "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       },
-=======
->>>>>>> 8b372353e5412236b8571d5415735e211d418ce1
       "System.Runtime.Extensions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2794,7 +2751,6 @@
           "ref/netstandard1.3/System.Text.Encoding.Extensions.dll": {}
         }
       },
-<<<<<<< HEAD
       "System.Text.Encodings.Web/4.4.0": {
         "type": "package",
         "compile": {
@@ -2804,8 +2760,6 @@
           "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
         }
       },
-=======
->>>>>>> 8b372353e5412236b8571d5415735e211d418ce1
       "System.Text.RegularExpressions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3063,7 +3017,6 @@
         "lib/netstandard1.3/DnsClient.xml"
       ]
     },
-<<<<<<< HEAD
     "Microsoft.AspNetCore.Authentication.Abstractions/2.0.0": {
       "sha512": "eDrNQlYPL5lw8DXMlEvo61VhkZ9DFq9/8Fds8+aaMa4nMtIJvwEwbFyYfJ+Zblh/8NNBkDQHkDD1p4i3g0HFWg==",
       "type": "package",
@@ -3252,8 +3205,6 @@
         "microsoft.aspnetcore.webutilities.nuspec"
       ]
     },
-=======
->>>>>>> 8b372353e5412236b8571d5415735e211d418ce1
     "Microsoft.CodeAnalysis/2.10.0": {
       "sha512": "UfTvzH8Vn8upI+wq+ebbY7xtQPe0xh7261wpskrjSIHqs05oK0aa4vGqlpm7ItNQdl8vi8n9KFLVJ5FA5rtiKw==",
       "type": "package",
@@ -3470,7 +3421,6 @@
         "microsoft.codeanalysis.workspaces.common.nuspec"
       ]
     },
-<<<<<<< HEAD
     "Microsoft.DotNet.PlatformAbstractions/2.0.0": {
       "sha512": "l5tDOSom+qpx4pDEoIcqMHnGC7jJ4Uq1DiJ6St/bn0rb5xIh/q4u7OQTIcE1k+1o7E0lYnJA4ZluzS6HGFr4zw==",
       "type": "package",
@@ -3495,8 +3445,6 @@
         "microsoft.extensions.configuration.abstractions.nuspec"
       ]
     },
-=======
->>>>>>> 8b372353e5412236b8571d5415735e211d418ce1
     "Microsoft.Extensions.DependencyInjection/2.1.0": {
       "sha512": "gt5wZArSJyLxGqvom+0WrNcmiJurkZV0YaPC4wpeqbSVg9CEQAG6h7nQXJcqj8+6BFYB9RDey4gAZasxcxv4tw==",
       "type": "package",
@@ -3525,7 +3473,6 @@
         "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
-<<<<<<< HEAD
     "Microsoft.Extensions.DependencyModel/2.0.0": {
       "sha512": "DyZ/Ibv/SZRMpYhaDCj0nlA+Qe52NyEL51onxAL94bUPauX0jxrK6jyxXN5DI8NVbzE5sOUWZYjTduNqUdbB+g==",
       "type": "package",
@@ -3617,8 +3564,6 @@
         "microsoft.net.http.headers.nuspec"
       ]
     },
-=======
->>>>>>> 8b372353e5412236b8571d5415735e211d418ce1
     "Microsoft.NETCore.App/2.1.0": {
       "sha512": "AvT774nTFgU8cYcGO9j1EMwuayKslxqYTurg32HGpWa2hEYNuW2+XgYVVNcZe6Ndbr84QX6fwaOZfd5n+1m2OA==",
       "type": "package",
@@ -3955,7 +3900,6 @@
         "version.txt"
       ]
     },
-<<<<<<< HEAD
     "Microsoft.OData.Core/7.5.0": {
       "sha512": "ghfBHBOUbcz4AcPgxo8w2/qtI+GrosRwQfT9LTagAxyARLDk6tbsFbYTJ2IJF2TJ24BlQfj6wsi6JHprMdO7VQ==",
       "type": "package",
@@ -3998,8 +3942,6 @@
         "microsoft.spatial.nuspec"
       ]
     },
-=======
->>>>>>> 8b372353e5412236b8571d5415735e211d418ce1
     "Microsoft.Win32.Primitives/4.3.0": {
       "sha512": "9ZQKCWxH7Ijp9BfahvL2Zyf1cJIk8XYLF6Yjzr2yi0b2cOut/HQ31qf1ThHAgCc3WiZMdnWcfJCgN82/0UunxA==",
       "type": "package",
@@ -4544,7 +4486,6 @@
         "system.appcontext.nuspec"
       ]
     },
-<<<<<<< HEAD
     "System.Buffers/4.4.0": {
       "sha512": "AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
       "type": "package",
@@ -4566,19 +4507,6 @@
         "system.buffers.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
-=======
-    "System.Buffers/4.3.0": {
-      "sha512": "ratu44uTIHgeBeI0dE8DWvmXVBSo4u7ozRZZHOMmK/JPpYyo0dAfgSiHlpiObMQ5lEtEyIXA40sKRYg5J6A8uQ==",
-      "type": "package",
-      "path": "system.buffers/4.3.0",
-      "files": [
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
-        "lib/netstandard1.1/.xml",
-        "lib/netstandard1.1/System.Buffers.dll",
-        "system.buffers.4.3.0.nupkg.sha512",
-        "system.buffers.nuspec"
->>>>>>> 8b372353e5412236b8571d5415735e211d418ce1
       ]
     },
     "System.Collections/4.3.0": {
@@ -5199,7 +5127,6 @@
         "system.diagnostics.debug.nuspec"
       ]
     },
-<<<<<<< HEAD
     "System.Diagnostics.DiagnosticSource/4.4.1": {
       "sha512": "U/KcC19fyLsPN1GLmeU2zQq15MMVcPwMOYPADVo1+WIoJpvMHxrzvl+BLLZwTEZSneGwaPFZ0aWr0nJ7B7LSdA==",
       "type": "package",
@@ -5225,8 +5152,6 @@
         "version.txt"
       ]
     },
-=======
->>>>>>> 8b372353e5412236b8571d5415735e211d418ce1
     "System.Diagnostics.FileVersionInfo/4.3.0": {
       "sha512": "omCF64wzQ3Q2CeIqkD6lmmxeMZtGHUmzgFMPjfVaOsyqpR66p/JaZzManMw1s33osoAb5gqpncsjie67+yUPHQ==",
       "type": "package",
@@ -7137,7 +7062,6 @@
         "system.runtime.nuspec"
       ]
     },
-<<<<<<< HEAD
     "System.Runtime.CompilerServices.Unsafe/4.4.0": {
       "sha512": "9dLLuBxr5GNmOfl2jSMcsHuteEg32BEfUotmmUkmZjpR3RpVHE8YQwt0ow3p6prwA1ME8WqDVZqrr8z6H8G+Kw==",
       "type": "package",
@@ -7159,8 +7083,6 @@
         "version.txt"
       ]
     },
-=======
->>>>>>> 8b372353e5412236b8571d5415735e211d418ce1
     "System.Runtime.Extensions/4.3.0": {
       "sha512": "guW0uK0fn5fcJJ1tJVXYd7/1h5F+pea1r7FLSOz/f8vPEqbR2ZAknuRDvTQ8PzAilDveOxNjSfr0CHfIQfFk8g==",
       "type": "package",
@@ -8014,7 +7936,6 @@
         "system.text.encoding.extensions.nuspec"
       ]
     },
-<<<<<<< HEAD
     "System.Text.Encodings.Web/4.4.0": {
       "sha512": "l/tYeikqMHX2MD2jzrHDfR9ejrpTTF7wvAEbR51AMvzip1wSJgiURbDik4iv/w7ZgytmTD/hlwpplEhF9bmFNw==",
       "type": "package",
@@ -8032,8 +7953,6 @@
         "version.txt"
       ]
     },
-=======
->>>>>>> 8b372353e5412236b8571d5415735e211d418ce1
     "System.Text.RegularExpressions/4.3.0": {
       "sha512": "RpT2DA+L660cBt1FssIE9CAGpLFdFPuheB7pLpKpn6ZXNby7jDERe8Ua/Ne2xGiwLVG2JOqziiaVCGDon5sKFA==",
       "type": "package",
@@ -8692,10 +8611,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-<<<<<<< HEAD
       "Microsoft.AspNetCore.OData >= 7.1.0",
-=======
->>>>>>> 8b372353e5412236b8571d5415735e211d418ce1
       "Microsoft.CodeAnalysis >= 2.10.0",
       "Microsoft.Extensions.DependencyInjection >= 2.1.0",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -8742,13 +8658,10 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
-<<<<<<< HEAD
           "Microsoft.AspNetCore.OData": {
             "target": "Package",
             "version": "[7.1.0, )"
           },
-=======
->>>>>>> 8b372353e5412236b8571d5415735e211d418ce1
           "Microsoft.CodeAnalysis": {
             "target": "Package",
             "version": "[2.10.0, )"
@@ -8779,5 +8692,13 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/josebraz/Documents/Projetos/NetCore/CodeRuntime/RuntimeCode.Core/obj/RuntimeCode.Core.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

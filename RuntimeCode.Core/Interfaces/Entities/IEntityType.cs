@@ -10,5 +10,6 @@ namespace RuntimeCode.Core.Interfaces.Entities
         string JavaScript { get; set; }
         string Code { get; set; }
         IList<IEntityField> Fields { get; set; }
+        string Module { get; set; }
     }
 }

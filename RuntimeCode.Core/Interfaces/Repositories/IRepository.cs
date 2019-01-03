@@ -15,6 +15,8 @@ namespace RuntimeCode.Core.Interfaces.Repositories
 
         IQueryable<T> AsQueryable();
 
+        IList<T> SelectAll();
+
         T GetById(TKey id);
 
         T Add(T entity);

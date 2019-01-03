@@ -39,9 +39,10 @@ namespace RuntimeCode.Core.Implementation.Services
         // {
         //     throw new System.NotImplementedException();
         // }
+
         public bool Delete(EntityType entity)
         {
-             return this._repository.Delete( entity.Id );
+             return this._repository.Delete( entity.Id ).DeletedCount > 0;
         }
 
         public EntityType GetById(string Id)
@@ -51,12 +52,18 @@ namespace RuntimeCode.Core.Implementation.Services
 
         public EntityType Save(EntityType entity)
         {
-            throw new System.NotImplementedException();
+            if( string.IsNullOrEmpty( entity?.Id )) {
+                entity = _repository.Add(entity);
+            }else{
+                entity = _repository.Update(entity);
+            }
+
+            return entity;
         }
 
         public IList<EntityType> SelectAll()
         {
-            throw new System.NotImplementedException();
+            return this._repository.SelectAll();
         }
     }
 }
